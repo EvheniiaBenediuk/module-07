@@ -1,0 +1,97 @@
+.contact-us {
+  background-color: var(--background-color);
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+  padding-bottom: 110px;
+  padding-top: 105px;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.title-contact {
+  text-align: center;
+  font-family: 'Montserrat-bold', sans-serif;
+  text-transform: uppercase;
+  font-size: var(--title-size);
+  padding-bottom: 15px;
+  color: var(--color-white);
+}
+.descrioption {
+  text-align: center;
+  font-family: 'DroidSerif', serif;
+  padding-bottom: 80px;
+  color: var(--color-description);
+}
+.form-contact {
+  text-transform: uppercase;
+  display: flex;
+  font-family: 'Montserrat-bold', serif;
+  font-size: var(--min-size);
+  width: 955px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+  color: var(--color-form);
+}
+::-moz-placeholder {
+  color: var(--color-form);
+} /* Firefox 19+ */
+:-moz-placeholder {
+  color: var(--color-form);
+} /* Firefox 18- */
+:-ms-input-placeholder {
+  color: var(--color-form);
+}
+::-webkit-input-placeholder::after {
+  content: '*';
+  color: red;
+}
+.wrapper-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 25px;
+}
+.text-form {
+  width: 435px;
+  flex-wrap: nowrap;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  height: 50px;
+  padding-left: 20px;
+}
+.massages {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  padding: 15px 259px 200px 20px;
+  height: 12px;
+  overflow: hidden;
+}
+.text-form:focus:invalid {
+  outline: 3px solid red;
+}
+.text-form:focus:valid {
+  outline: 3px solid green;
+}
+.massages:focus:invalid {
+  outline: 3px solid red;
+}
+.massages:focus:valid {
+  outline: 3px solid green;
+}
+
+.button-send {
+  text-decoration: none;
+  border: 0px;
+  padding: 25px 40px;
+  border-radius: 2%;
+  text-transform: uppercase;
+  color: var(--color-white);
+  background: var(--main-color);
+  font-size: var(--subtitle-size);
+  font-family: 'Montserrat-bold';
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}

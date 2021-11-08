@@ -1,0 +1,39 @@
+  @font-face {
+    font-family: "Montserrat-regular";
+    src: url("../css/fonts/montserrat/montserrat-v12-latin-600.woff2") format("woff2"),
+    url("../css/fonts/montserrat/montserrat-v12-latin-600.woff") format("woff");
+    font-style: normal;
+    font-weight: 600;
+  }
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url("../css/fonts/montserrat/montserrat-v12-latin-700.woff2") format("woff2"),
+    url("../css/fonts/montserrat/montserrat-v12-latin-700.woff") format("woff");
+    font-style: bold;
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: "roboto-slab";
+    src: url("../css/fonts/roboto/roboto-slab-v8-latin-regular.woff2") format("woff2"), 
+    url("../css/fonts/roboto/roboto-slab-v8-latin-regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Wisdom";
+    src: url("../css/fonts/wisdom/Wisdom-Script\ \(2\).woff2") format("woff2"),
+    url("../css/fonts/wisdom/Wisdom-Script\ \(2\).woff") format("woff");
+    font-style: normal;
+    font-weight: lighter;
+  }
+  @font-face {
+    font-family: "DroidSerif";
+    src: url("../css/fonts/Droid/DroidSerif-Italic.woff2") format("woff2"), 
+    url("../css/fonts/Droid/DroidSerif-Italic.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+  }
+   
+  
